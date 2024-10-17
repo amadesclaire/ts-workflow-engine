@@ -3,7 +3,17 @@
   "version": "0.1.0",
   "exports": "./mod.ts",
   "tasks": {
-    "dev": "deno test --watch mod.ts"
+    "dev": "deno test --watch --allow-net mod.ts"
+  },
+  "lint": {
+    "files": {
+      "include": ["src/"]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": ["src/"]
+    }
   },
   "license": "MIT",
   "imports": {
