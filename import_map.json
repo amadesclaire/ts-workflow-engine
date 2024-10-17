@@ -1,10 +1,10 @@
 {
   "imports": {
-    "@src/": "./src/",
-    "@core": "./src/core/",
-    "@drivers": "./src/drivers/",
-    "@interfaces": "./src/interfaces/",
-    "@test": "./test/",
-    "@utils": "./src/utils/"
+    "src/": "./src/",
+    "core/": "./src/core/",
+    "drivers/": "./src/drivers/",
+    "interfaces/": "./src/interfaces/",
+    "test/": "./test/",
+    "utils/": "./src/utils/"
   }
 }
